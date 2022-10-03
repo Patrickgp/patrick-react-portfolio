@@ -3,7 +3,8 @@
 }
 
 body {
-  background-color: rgb(55, 55, 55);
+  background-color: white;
+  color: black;
 }
 
 .button {
@@ -20,5 +21,4 @@ body {
 .button:hover {
   color: darkslateblue;
   background-color: white;
-  border: darkslateblue 2px solid;
 }
