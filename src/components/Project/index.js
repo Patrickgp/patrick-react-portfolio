@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Nighthawk from "../../assets/images/Nighthawk.png";
 import WeatherFlow from "../../assets/images/weatherFlow.png";
 import CodingColumns from "../../assets/images/coding-columns.png";

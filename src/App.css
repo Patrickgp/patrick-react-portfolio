@@ -1,8 +1,74 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   background-color: white;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+  color: black;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar a:hover {
+  color: teal;
+}
+
+.navbar-nav .nav-link.active {
+  color: green;
+}
+
+.wallpaper {
+  width: 100vw; /* width of container */
+  height: 100vh; /* height of container */
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  object-position: 50% 100% 20%;
+  filter: brightness(70%);
+  animation: hover 5s;
+  animation-play-state: paused;
+  animation-fill-mode: backwards;
+  overflow-y: hidden;
+}
+
+@keyframes hover {
+  0% {
+    filter: brightness(0%);
+  }
+  100% {
+    filter: brightness(70%);
+  }
+}
+
+.wallpaper:active,
+.wallpaper:focus,
+.wallpaper:hover {
+  animation-play-state: running;
+  animation-play-state: forwards;
+  animation-fill-mode: forwards;
+}
+
+.cta {
+  position: absolute;
+  top: 20%;
+  font-size: 10rem;
+  text-align: center;
+  color: white;
+  animation: hover 5s;
+  text-shadow: 1px 1px 1px;
 }
 
 .icon-bar {
