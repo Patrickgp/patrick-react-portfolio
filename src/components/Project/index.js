@@ -9,7 +9,9 @@ const Project = () => {
     <section id="project" className="my-5">
       <div className="container">
         <div className="row">
-          <h2 className="project-header my-5">My Projects</h2>
+          <h2 className="project-header my-5 d-flex justify-content-center">
+            My Projects
+          </h2>
 
           <img
             className="project-img"

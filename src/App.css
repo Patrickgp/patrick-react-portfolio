@@ -39,7 +39,7 @@ body {
   object-position: 50% 100% 20%;
   filter: brightness(70%);
   animation: hover 5s;
-  animation-play-state: paused;
+  animation-play-state: running;
   animation-fill-mode: backwards;
   overflow-y: hidden;
 }
@@ -53,6 +53,25 @@ body {
   }
 }
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 71%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
 .wallpaper:active,
 .wallpaper:focus,
 .wallpaper:hover {
@@ -60,15 +79,26 @@ body {
   animation-play-state: forwards;
   animation-fill-mode: forwards;
 }
+.row {
+  display: flex;
+  justify-content: center;
+}
 
 .cta {
   position: absolute;
-  top: 20%;
-  font-size: 10rem;
+  top: 50%;
   text-align: center;
   color: white;
-  animation: hover 5s;
-  text-shadow: 1px 1px 1px;
+  padding: 0;
+  width: 71%;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.row h1 {
+  overflow: hidden;
+  margin: 0 auto;
+  white-space: nowrap;
+  border-right: 0.15em solid orange;
 }
 
 .icon-bar {
@@ -131,12 +161,12 @@ body {
   margin: 0;
   border-radius: 50px;
   border: 2px solid black;
-  margin-right: 50px;
 }
 
 .profile-info {
   width: 50vw;
   margin-top: 100px;
+  text-align: center;
 }
 
 .project-header {
