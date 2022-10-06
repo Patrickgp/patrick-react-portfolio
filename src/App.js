@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 import Navigation from "./components/Nav";
@@ -8,13 +8,17 @@ import Project from "./components/Project";
 import Skill from "./components/Skill";
 
 function App() {
+  const [aboutSelected, setAboutSelected] = useState(false);
+
   return (
     <div className="app">
       <Navigation />
-      <Home />
-      <About />
-      <Skill />
-      <Project />
+      <main>
+        <Home />
+        <About />
+        <Skill />
+        <Project />
+      </main>
     </div>
   );
 }
