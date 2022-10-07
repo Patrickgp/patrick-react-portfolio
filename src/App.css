@@ -16,6 +16,8 @@ body {
 
 .navbar {
   background-color: white;
+  border-bottom: black 2px solid;
+  box-shadow: 2px 2px 2px green;
 }
 
 .navbar a {
@@ -36,7 +38,7 @@ body {
   margin: 0;
   padding: 0;
   object-fit: cover;
-  object-position: 50% 100% 20%;
+  object-position: 50% 10%;
   filter: brightness(70%);
   animation: hover 5s;
   animation-play-state: running;

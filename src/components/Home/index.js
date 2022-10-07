@@ -3,7 +3,7 @@ import SpaceMan from "../../assets/images/spaceman.jpeg";
 
 const Home = () => {
   return (
-    <section className="home">
+    <section id="home">
       <div className="container-fluid bg">
         <div className="row">
           <img

@@ -12,7 +12,7 @@ const Navigation = () => {
   };
 
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" fixed="top">
       <Container>
         <Navbar.Brand href="#home">
           Patrick Poopathi | Full Stack Developer
