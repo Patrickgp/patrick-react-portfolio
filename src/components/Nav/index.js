@@ -1,70 +1,35 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
 
 const Navigation = () => {
-  const [activeLink, setActiveLink] = useState("home");
-
-  const onUpdateActiveLink = (value) => {
-    setActiveLink(value);
-  };
-
   return (
     <Navbar expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand to="home">
           Patrick Poopathi | Full Stack Developer
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto mx-5">
-            <Nav.Link
-              href="#home"
-              className={
-                activeLink === "home" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("home")}
-            >
+            <NavLink to="home" className="nav">
               Home
-            </Nav.Link>
-            <Nav.Link
-              href="#about"
-              className={
-                activeLink === "about" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("about")}
-            >
+            </NavLink>
+            <NavLink to="about" className="nav">
               About Me
-            </Nav.Link>
-            <Nav.Link
-              href="#skill"
-              className={
-                activeLink === "skills" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("skills")}
-            >
-              Skills
-            </Nav.Link>
-            <Nav.Link
-              href="#project"
-              className={
-                activeLink === "projects" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("projects")}
-            >
-              My Projects
-            </Nav.Link>
-            <Nav.Link
-              href="#contact"
-              className={
-                activeLink === "contact" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("contact")}
-            >
+            </NavLink>
+            <NavLink to="skill" className="nav">
+              Resume
+            </NavLink>
+            <NavLink to="project" className="nav">
+              Portfolio
+            </NavLink>
+            <NavLink to="contact" className="nav">
               Contact Me
-            </Nav.Link>
+            </NavLink>
           </Nav>
           <span className="navbar-text">
             <div className="icon-bar">

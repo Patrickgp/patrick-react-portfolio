@@ -20,6 +20,11 @@ body {
   box-shadow: 2px 2px 2px green;
 }
 
+.nav {
+  margin: 0px 15px;
+  text-decoration: none;
+}
+
 .navbar a {
   color: black;
 }
@@ -28,7 +33,7 @@ body {
   color: teal;
 }
 
-.navbar-nav .nav-link.active {
+.nav:active {
   color: green;
 }
 
@@ -195,6 +200,7 @@ body {
 
 .project-header {
   text-align: center;
+  padding-top: 50px;
 }
 
 .project-img {

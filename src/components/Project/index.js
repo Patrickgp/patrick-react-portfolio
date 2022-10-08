@@ -10,7 +10,7 @@ const Project = () => {
       <div className="container">
         <div className="row">
           <h2 className="project-header my-5 d-flex justify-content-center">
-            My Projects
+            Portfolio
           </h2>
 
           <img
