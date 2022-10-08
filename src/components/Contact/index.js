@@ -46,7 +46,7 @@ const Contact = () => {
             Contact Me
           </h2>
           <form id="contact-form" onSubmit={handleSubmit}>
-            <div>
+            <div className="contact-form">
               <label htmlFor="name">Name:</label>
               <input
                 type="text"
@@ -54,8 +54,6 @@ const Contact = () => {
                 name="name"
                 defaultValue={name}
               />
-            </div>
-            <div>
               <label htmlFor="email">Email Address:</label>
               <input
                 type="email"
@@ -63,8 +61,6 @@ const Contact = () => {
                 name="email"
                 defaultValue={email}
               />
-            </div>
-            <div>
               <label htmlFor="message">Message:</label>
               <textarea
                 name="message"
@@ -74,11 +70,13 @@ const Contact = () => {
               />
             </div>
             {errorMessage && (
-              <div>
+              <div className="d-flex justify-content-center">
                 <p className="error-text">{errorMessage}</p>
               </div>
             )}
-            <button type="submit">Submit</button>
+            <div className="center-button">
+              <button type="submit">Submit</button>
+            </div>
           </form>
         </div>
       </div>
