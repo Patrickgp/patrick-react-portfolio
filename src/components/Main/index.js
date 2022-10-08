@@ -13,6 +13,7 @@ function Main() {
     <div className="main">
       <Navigation />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skill" element={<Skill />} />

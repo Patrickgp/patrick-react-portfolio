@@ -11,7 +11,7 @@ const Home = () => {
             src={SpaceMan}
             alt="Astronaut floating in space"
           ></img>
-          <h1 className="cta">Dream, Believe, Achieve</h1>
+          <h1 className="cta">Dream. Believe. Achieve.</h1>
         </div>
       </div>
     </section>
