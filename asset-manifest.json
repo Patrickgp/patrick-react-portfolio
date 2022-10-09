@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/patrick-react-portfolio/static/css/main.a045c56e.css",
+    "main.js": "/patrick-react-portfolio/static/js/main.3d6667d9.js",
+    "static/js/787.3d1f022b.chunk.js": "/patrick-react-portfolio/static/js/787.3d1f022b.chunk.js",
+    "static/media/weatherFlow.png": "/patrick-react-portfolio/static/media/weatherFlow.2a716b9affd0bc6b050f.png",
+    "static/media/spaceman.jpeg": "/patrick-react-portfolio/static/media/spaceman.23c3d45899744af81c51.jpeg",
+    "static/media/the-whole-team.png": "/patrick-react-portfolio/static/media/the-whole-team.635ba1e5e13a606abd41.png",
+    "static/media/Collective-Reaction.png": "/patrick-react-portfolio/static/media/Collective-Reaction.b3a0582374ecce468f85.png",
+    "static/media/profile-pic.jpg": "/patrick-react-portfolio/static/media/profile-pic.8e9744d445be7bcdd329.jpg",
+    "static/media/Nighthawk.png": "/patrick-react-portfolio/static/media/Nighthawk.7bbbe20f0f6283747dda.png",
+    "static/media/coding-columns.png": "/patrick-react-portfolio/static/media/coding-columns.b2b065d1577b151bd213.png",
+    "static/media/Code-Quiz.png": "/patrick-react-portfolio/static/media/Code-Quiz.b3f7973ffd2e159c25b9.png",
+    "index.html": "/patrick-react-portfolio/index.html",
+    "main.a045c56e.css.map": "/patrick-react-portfolio/static/css/main.a045c56e.css.map",
+    "main.3d6667d9.js.map": "/patrick-react-portfolio/static/js/main.3d6667d9.js.map",
+    "787.3d1f022b.chunk.js.map": "/patrick-react-portfolio/static/js/787.3d1f022b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a045c56e.css",
+    "static/js/main.3d6667d9.js"
+  ]
+}
