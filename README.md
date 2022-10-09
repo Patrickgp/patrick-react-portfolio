@@ -1,3 +1,5 @@
+Live URL: https://patrickgp.github.io/patrick-react-portfolio/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
