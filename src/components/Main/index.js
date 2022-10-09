@@ -5,6 +5,7 @@ import About from "../About";
 import Project from "../Project";
 import Skill from "../Skill";
 import Contact from "../Contact";
+import Footer from "../Footer";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -20,6 +21,7 @@ function Main() {
         <Route path="/project" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

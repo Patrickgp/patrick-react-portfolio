@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+// import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
 
 const Navigation = () => {
   return (
@@ -31,7 +31,7 @@ const Navigation = () => {
               Contact Me
             </NavLink>
           </Nav>
-          <span className="navbar-text">
+          {/* <span className="navbar-text">
             <div className="icon-bar">
               <a
                 href="https://www.linkedin.com/in/patrick-poopathi/"
@@ -62,7 +62,7 @@ const Navigation = () => {
                 <FontAwesomeIcon icon={faFile} className="resume mx-2" />
               </a>
             </div>
-          </span>
+          </span> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
