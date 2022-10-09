@@ -95,7 +95,7 @@ textarea {
     width: 0;
   }
   to {
-    width: 60vw;
+    width: 62vw;
   }
 }
 
@@ -135,7 +135,7 @@ textarea {
   text-align: center;
   color: white;
   padding: 0;
-  width: 60vw;
+  width: 62vw;
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
@@ -233,9 +233,28 @@ textarea {
   padding-top: 50px;
 }
 
+.project-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .project-img {
   display: block;
-  width: 50em;
+  width: 30em;
   margin: 20px auto;
   padding: 0;
   border: 3px solid black;

@@ -9,7 +9,7 @@ const Navigation = () => {
   return (
     <Navbar expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand className="brand" to="home">
+        <Navbar.Brand className="brand" href="home">
           Patrick Poopathi | Full Stack Developer
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
