@@ -34,12 +34,12 @@ const Contact = () => {
   }
 
   function handleSubmit(e) {
-    e.preventDefault();
     console.log(formState);
+    e.preventDefault();
   }
 
   return (
-    <section id="contact" className="my-5">
+    <section id="contact">
       <div className="container">
         <div className="row">
           <h2 className="project-header my-5 d-flex justify-content-center">

@@ -9,7 +9,7 @@ const About = () => {
           <h2 className="project-header my-5 d-flex justify-content-center">
             About Me
           </h2>
-          <div className="aboutme d-flex justify-content-center flex-wrap">
+          <div className="aboutme">
             <img
               className="profile-pic"
               src={Profile}
