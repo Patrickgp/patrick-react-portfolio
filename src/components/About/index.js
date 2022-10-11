@@ -15,7 +15,7 @@ const About = () => {
               src={Profile}
               alt="Patrick Poopathi"
             ></img>
-            <p className="profile-info mx-5">
+            <p className="profile-info mx-5 mb-5">
               Front-end web developer with extensive experience in sales &
               marketing able to provide unique insight into user experiences,
               achieving benchmarks and driving focuses. Recently earning a

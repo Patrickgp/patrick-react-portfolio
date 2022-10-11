@@ -2,8 +2,8 @@ import React from "react";
 import Navigation from "../Nav";
 import Home from "../Home";
 import About from "../About";
-import Project from "../Project";
-import Skill from "../Skill";
+import Portfolio from "../Portfolio";
+import Resume from "../Resume";
 import Contact from "../Contact";
 import Footer from "../Footer";
 
@@ -18,8 +18,8 @@ function Main() {
         <Route path="/patrick-react-portfolio" element={<About />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/skill" element={<Skill />} />
-        <Route path="/project" element={<Project />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

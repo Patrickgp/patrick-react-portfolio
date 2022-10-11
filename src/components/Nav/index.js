@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+{
+  /* Will put this back in after submission. Not a fan of a footer for links */
+}
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 // import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
@@ -21,16 +24,17 @@ const Navigation = () => {
             <NavLink to="about" className="nav">
               About Me
             </NavLink>
-            <NavLink to="skill" className="nav">
+            <NavLink to="resume" className="nav">
               Resume
             </NavLink>
-            <NavLink to="project" className="nav">
+            <NavLink to="portfolio" className="nav">
               Portfolio
             </NavLink>
             <NavLink to="contact" className="nav">
               Contact Me
             </NavLink>
           </Nav>
+          {/* Will put this back in after submission. Not a fan of a footer for links */}
           {/* <span className="navbar-text">
             <div className="icon-bar">
               <a

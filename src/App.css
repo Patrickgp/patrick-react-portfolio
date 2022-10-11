@@ -39,6 +39,10 @@ textarea {
   width: 25%;
 }
 
+.brand {
+  font-size: 2vw;
+}
+
 .navbar-toggler-icon {
   background-color: white;
   color: black;
@@ -209,7 +213,7 @@ textarea {
 
 .skillsList li {
   padding: 25px 50px;
-  font-size: 24pt;
+  font-size: 2.5vw;
   text-align: center;
   margin: 2px;
   border: 2px solid black;
@@ -268,7 +272,7 @@ textarea {
 
 .project-img {
   display: block;
-  width: 30em;
+  width: 50vw;
   margin: 20px auto;
   padding: 0;
   border: 3px solid black;
@@ -298,9 +302,24 @@ textarea {
   text-align: center;
 }
 
+.patricksResume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.patricksResume img {
+  width: 50vw;
+  border: 2px solid black;
+}
+
 @media only screen and (max-width: 1200px) {
   .profile-info {
     width: 75vw;
     margin: 50px 0;
+  }
+
+  .brand {
+    font-size: 3vw;
   }
 }

@@ -6,9 +6,9 @@ import TheWholeTeam from "../../assets/images/the-whole-team.png";
 import CodeQuiz from "../../assets/images/Code-Quiz.png";
 import CollectiveReaction from "../../assets/images/Collective-Reaction.png";
 
-const Project = () => {
+const Portfolio = () => {
   return (
-    <section id="project" className="my-5">
+    <section id="portfolio" className="my-5">
       <div className="container">
         <div className="row">
           <h2 className="project-header my-5 d-flex justify-content-center">
@@ -34,6 +34,14 @@ const Project = () => {
                   A side scroller survival game with the ability to share and
                   comment with friends.
                 </i>
+                <br />
+                <a
+                  href="https://github.com/Patrickgp/video-game"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <b>Link to Github Repo</b>
+                </a>
               </p>
             </div>
             <div className="skill-column">
@@ -73,6 +81,14 @@ const Project = () => {
                   An application that provides playlists based on weather
                   conditions of a user searched city.
                 </i>
+                <br />
+                <a
+                  href="https://github.com/Patrickgp/Spotify-Weather-App"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <b>Link to Github Repo</b>
+                </a>
               </p>
             </div>
             <div className="skill-column">
@@ -108,6 +124,14 @@ const Project = () => {
                   CMS-style blog site where users can create accounts and share
                   thoughts and reactions.
                 </i>
+                <br />
+                <a
+                  href="https://github.com/Patrickgp/codingColumns"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <b>Link to Github Repo</b>
+                </a>
               </p>
             </div>
             <div className="skill-column">
@@ -145,6 +169,14 @@ const Project = () => {
                 <i>
                   An API for a social network web application utilizing NoSQL.
                 </i>
+                <br />
+                <a
+                  href="https://github.com/Patrickgp/Collective-Reaction"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <b>Link to Github Repo</b>
+                </a>
               </p>
             </div>
             <div className="skill-column">
@@ -176,12 +208,20 @@ const Project = () => {
               ></img>
             </a>
             <div className="project-title">
-              <h3>Collective Reaction</h3>
+              <h3>The Whole Team</h3>
               <p>
                 <i>
                   Created to better manage employee information through Inquirer
                   prompts.
                 </i>
+                <br />
+                <a
+                  href="https://github.com/Patrickgp/the-whole-team"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <b>Link to Github Repo</b>
+                </a>
               </p>
             </div>
             <div className="skill-column">
@@ -200,7 +240,7 @@ const Project = () => {
           {/* Start of Code Quiz project */}
           <div className="project-row my-5">
             <a
-              href="https://intense-fjord-66450.herokuapp.com/"
+              href="https://patrickgp.github.io/Code-Quiz/"
               target="_blank"
               rel="noreferrer"
             >
@@ -217,6 +257,14 @@ const Project = () => {
                   A timed JavaScript fundamental quiz game that allows you to
                   store your high score locally.
                 </i>
+                <br />
+                <a
+                  href="https://github.com/Patrickgp/Code-Quiz"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <b>Link to Github Repo</b>
+                </a>
               </p>
             </div>
             <div className="skill-column">
@@ -235,4 +283,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Portfolio;
