@@ -5,7 +5,7 @@
 
   # Description
   The goal of this project was to provide an example of my ability to build a single page application. Utilizing react router and react I created a portfolio site that showcases my past projects as well as information about myself and my goals.
-  ### Tech used in program: HTML,CSS,JavaScript,Node.js,Bootstrap
+  ### Tech used in program: HTML, CSS, JavaScript, Node.js, React-Bootstrap, React, React-Router-DOM
 
   # Table of Contents
   * [Installation](#installation)
