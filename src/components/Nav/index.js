@@ -1,9 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-{
-  /* Will put this back in after submission. Not a fan of a footer for links */
-}
+// Will put this back in after submission. Not a fan of a footer for links
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 // import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
@@ -12,25 +10,62 @@ const Navigation = () => {
   return (
     <Navbar expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand className="brand" href="home">
-          Patrick Poopathi | Full Stack Developer
+        <Navbar.Brand className="brand">
+          <NavLink style={{ textDecoration: "none" }} to="home">
+            Patrick Poopathi | Full Stack Developer
+          </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto mx-5">
-            <NavLink to="home" className="nav">
+            <NavLink
+              style={({ isActive }) => ({
+                color: isActive ? "green" : "black",
+                textDecoration: "none",
+              })}
+              to="home"
+              className="nav"
+            >
               Home
             </NavLink>
-            <NavLink to="about" className="nav">
+            <NavLink
+              style={({ isActive }) => ({
+                color: isActive ? "green" : "black",
+                textDecoration: "none",
+              })}
+              to="about"
+              className="nav"
+            >
               About Me
             </NavLink>
-            <NavLink to="resume" className="nav">
+            <NavLink
+              style={({ isActive }) => ({
+                color: isActive ? "green" : "black",
+                textDecoration: "none",
+              })}
+              to="resume"
+              className="nav"
+            >
               Resume
             </NavLink>
-            <NavLink to="portfolio" className="nav">
+            <NavLink
+              style={({ isActive }) => ({
+                color: isActive ? "green" : "black",
+                textDecoration: "none",
+              })}
+              to="portfolio"
+              className="nav"
+            >
               Portfolio
             </NavLink>
-            <NavLink to="contact" className="nav">
+            <NavLink
+              style={({ isActive }) => ({
+                color: isActive ? "green" : "black",
+                textDecoration: "none",
+              })}
+              to="contact"
+              className="nav"
+            >
               Contact Me
             </NavLink>
           </Nav>

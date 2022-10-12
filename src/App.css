@@ -55,7 +55,8 @@ textarea {
 }
 
 .nav {
-  margin: 0px 15px;
+  margin: 0 15px;
+  display: inline-block;
   text-decoration: none;
   text-align: center;
 }
@@ -151,13 +152,17 @@ textarea {
 .bottom-bar {
   background-color: rgba(255, 255, 255, 0.811);
   border-top: 2px solid black;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 .icon-bar svg {
   padding: 15px;
   transition: all 0.3s ease;
   color: black;
-  font-size: 48px;
+  font-size: 28px;
   border-radius: 5px;
   background: -webkit-linear-gradient(90deg, white, white);
   -webkit-background-clip: text;
@@ -228,7 +233,7 @@ textarea {
 .aboutme {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
 }
 
@@ -306,11 +311,27 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  background-color: black;
+  border-radius: 24px;
+  border: 2px solid green;
 }
 
-.patricksResume img {
-  width: 50vw;
-  border: 2px solid black;
+.patricksResume a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.patricksResume a:active {
+  color: green;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -321,5 +342,12 @@ textarea {
 
   .brand {
     font-size: 3vw;
+  }
+  .stackOverflow {
+    display: none;
+  }
+
+  .aboutme {
+    flex-wrap: wrap;
   }
 }

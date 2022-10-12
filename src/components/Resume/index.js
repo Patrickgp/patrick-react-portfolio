@@ -1,5 +1,4 @@
 import React from "react";
-import PatricksResume from "../../assets/images/Patricks-Resume.png";
 
 const Resume = () => {
   return (
@@ -15,7 +14,7 @@ const Resume = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={PatricksResume} alt="Patrick's resume" />
+              Click to download Resume
             </a>
           </div>
           <h2 className="project-header my-5 d-flex justify-content-center">
