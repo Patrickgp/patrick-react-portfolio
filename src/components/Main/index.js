@@ -15,7 +15,7 @@ function Main() {
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/patrick-react-portfolio" element={<About />} />
+        <Route path="/patrick-react-portfolio" element={<Home />} />
         {/* Change Route path to Home after submission */}
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
