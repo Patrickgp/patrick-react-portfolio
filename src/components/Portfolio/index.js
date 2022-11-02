@@ -5,6 +5,7 @@ import CodingColumns from "../../assets/images/coding-columns.png";
 import TheWholeTeam from "../../assets/images/the-whole-team.png";
 import CodeQuiz from "../../assets/images/Code-Quiz.png";
 import CollectiveReaction from "../../assets/images/Collective-Reaction.png";
+import Nofomo from "../../assets/images/NOFOMO.png";
 
 const Portfolio = () => {
   return (
@@ -14,6 +15,58 @@ const Portfolio = () => {
           <h2 className="project-header my-5 d-flex justify-content-center">
             Portfolio
           </h2>
+
+          {/* Start of Nighthawk project */}
+          <div className="project-row mb-5">
+            <a
+              href="https://shrouded-eyrie-44498.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="project-img"
+                src={Nofomo}
+                alt="Nofomo | Online Rental Services"
+              ></img>
+            </a>
+            <div className="project-title">
+              <h3>NOFOMO | </h3>
+              <p>
+                <i>
+                  A ecommerce website that will allow our customers to post
+                  items to rent and rent items posted by other users.
+                </i>
+                <br />
+                <a
+                  href="https://github.com/Patrickgp/nofomo"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <b>Link to Github Repo</b>
+                </a>
+              </p>
+            </div>
+            <div className="skill-column">
+              <h5 className="my-4">Tech used in program:</h5>
+              <ul className="skillsList">
+                <li>HTML, CSS, JavaScript</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+                <li>Mongoose</li>
+                <li>GraphQL</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>Bootstrap</li>
+                <li>Cloudinary</li>
+                <li>Stripe.js</li>
+                <li>JWT</li>
+                <li>restAPI</li>
+              </ul>
+            </div>
+          </div>
+          {/* End of Nighthawk project */}
+
           {/* Start of Nighthawk project */}
           <div className="project-row mb-5">
             <a
