@@ -16,7 +16,7 @@ const Portfolio = () => {
             Portfolio
           </h2>
 
-          {/* Start of Nighthawk project */}
+          {/* Start of NOFOMO project */}
           <div className="project-row mb-5">
             <a
               href="https://shrouded-eyrie-44498.herokuapp.com/"
@@ -65,7 +65,7 @@ const Portfolio = () => {
               </ul>
             </div>
           </div>
-          {/* End of Nighthawk project */}
+          {/* End of NOFOMO project */}
 
           {/* Start of Nighthawk project */}
           <div className="project-row mb-5">
