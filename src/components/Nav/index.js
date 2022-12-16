@@ -11,10 +11,7 @@ const Navigation = () => {
     <Navbar expand="lg" fixed="top">
       <Container>
         <Navbar.Brand className="brand">
-          <NavLink
-            style={{ textDecoration: "none", fontSize: "16pt" }}
-            to="home"
-          >
+          <NavLink style={{ textDecoration: "none" }} to="home">
             Patrick Poopathi | Full Stack Developer
           </NavLink>
         </Navbar.Brand>
@@ -61,7 +58,7 @@ const Navigation = () => {
             >
               Portfolio
             </NavLink>
-            <NavLink
+            {/* <NavLink
               style={({ isActive }) => ({
                 color: isActive ? "orange" : "white",
                 textDecoration: "none",
@@ -70,7 +67,7 @@ const Navigation = () => {
               className="nav"
             >
               Contact Me
-            </NavLink>
+            </NavLink> */}
           </Nav>
           {/* Will put this back in after submission. Not a fan of a footer for links */}
           <span className="navbar-text">

@@ -40,14 +40,13 @@ textarea {
 }
 
 .brand {
-  font-size: 2vw;
+  font-size: 1.2vw;
 }
 
 .navbar-toggler-icon {
   background-color: #333;
-  padding: 20px;
+  padding: 22px;
   border-radius: 10px;
-  color: black;
 }
 
 .navbar-text {
@@ -62,7 +61,7 @@ textarea {
 }
 
 .nav {
-  margin: 0 15px;
+  margin: 0 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
