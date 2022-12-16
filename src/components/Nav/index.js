@@ -2,16 +2,19 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 // Will put this back in after submission. Not a fan of a footer for links
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-// import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
 
 const Navigation = () => {
   return (
     <Navbar expand="lg" fixed="top">
       <Container>
         <Navbar.Brand className="brand">
-          <NavLink style={{ textDecoration: "none" }} to="home">
+          <NavLink
+            style={{ textDecoration: "none", fontSize: "16pt" }}
+            to="home"
+          >
             Patrick Poopathi | Full Stack Developer
           </NavLink>
         </Navbar.Brand>
@@ -20,7 +23,7 @@ const Navigation = () => {
           <Nav className="me-auto mx-5">
             <NavLink
               style={({ isActive }) => ({
-                color: isActive ? "green" : "black",
+                color: isActive ? "orange" : "white",
                 textDecoration: "none",
               })}
               to="home"
@@ -30,7 +33,7 @@ const Navigation = () => {
             </NavLink>
             <NavLink
               style={({ isActive }) => ({
-                color: isActive ? "green" : "black",
+                color: isActive ? "orange" : "white",
                 textDecoration: "none",
               })}
               to="about"
@@ -40,7 +43,7 @@ const Navigation = () => {
             </NavLink>
             <NavLink
               style={({ isActive }) => ({
-                color: isActive ? "green" : "black",
+                color: isActive ? "orange" : "white",
                 textDecoration: "none",
               })}
               to="resume"
@@ -50,7 +53,7 @@ const Navigation = () => {
             </NavLink>
             <NavLink
               style={({ isActive }) => ({
-                color: isActive ? "green" : "black",
+                color: isActive ? "orange" : "white",
                 textDecoration: "none",
               })}
               to="portfolio"
@@ -60,7 +63,7 @@ const Navigation = () => {
             </NavLink>
             <NavLink
               style={({ isActive }) => ({
-                color: isActive ? "green" : "black",
+                color: isActive ? "orange" : "white",
                 textDecoration: "none",
               })}
               to="contact"
@@ -70,7 +73,7 @@ const Navigation = () => {
             </NavLink>
           </Nav>
           {/* Will put this back in after submission. Not a fan of a footer for links */}
-          {/* <span className="navbar-text">
+          <span className="navbar-text">
             <div className="icon-bar">
               <a
                 href="https://www.linkedin.com/in/patrick-poopathi/"
@@ -101,7 +104,7 @@ const Navigation = () => {
                 <FontAwesomeIcon icon={faFile} className="resume mx-2" />
               </a>
             </div>
-          </span> */}
+          </span>
         </Navbar.Collapse>
       </Container>
     </Navbar>

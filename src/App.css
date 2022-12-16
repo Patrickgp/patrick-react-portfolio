@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: white);
+  background-color: lightgray;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,7 +15,7 @@ input {
   margin: 8px 0;
   display: flex;
   border: 2px solid black;
-  box-shadow: 1px 1px 1px 1px green;
+  box-shadow: 1px 1px 1px 1px #333;
   border-radius: 4px;
 }
 
@@ -25,7 +25,7 @@ textarea {
   margin: 8px 0;
   display: flex;
   border: 2px solid black;
-  box-shadow: 1px 1px 1px 1px green;
+  box-shadow: 1px 1px 1px 1px #333;
   border-radius: 4px;
 }
 
@@ -35,7 +35,7 @@ textarea {
   background-color: #04643c;
   color: white;
   border-radius: 25px;
-  box-shadow: 1px 1px 1px green;
+  box-shadow: 1px 1px 1px #333;
   width: 25%;
 }
 
@@ -44,33 +44,49 @@ textarea {
 }
 
 .navbar-toggler-icon {
-  background-color: white;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
   color: black;
 }
 
+.navbar-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
 .navbar {
-  background-color: white;
-  border-bottom: black 2px solid;
-  box-shadow: 2px 2px 2px green;
+  background-color: rgba(0, 0, 0, 0.211);
 }
 
 .nav {
   margin: 0 15px;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
   text-decoration: none;
   text-align: center;
 }
 
+.nav a {
+  color: white;
+}
+
 .navbar a {
-  color: black;
+  color: rgba(255, 255, 255, 0.616);
+  border-bottom: transparent 2px solid;
 }
 
 .navbar a:hover {
-  color: teal;
+  color: white;
+  border-bottom: #f48023 2px solid;
 }
 
 .nav:active {
-  color: green;
+  color: #333;
 }
 
 .wallpaper {
@@ -161,7 +177,7 @@ textarea {
 .icon-bar svg {
   padding: 15px;
   transition: all 0.3s ease;
-  color: black;
+  color: white;
   font-size: 28px;
   border-radius: 5px;
   background: -webkit-linear-gradient(90deg, white, white);
@@ -318,7 +334,7 @@ textarea {
   height: auto;
   background-color: black;
   border-radius: 24px;
-  border: 2px solid green;
+  border: 2px solid #333;
 }
 
 .patricksResume a {
@@ -332,7 +348,7 @@ textarea {
 }
 
 .patricksResume a:active {
-  color: green;
+  color: #333;
 }
 
 @media only screen and (max-width: 1200px) {
